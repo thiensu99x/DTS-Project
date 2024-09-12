@@ -58,7 +58,7 @@ users.needObject=Phải là một Object
 handleCommand.userBanned=⚜️ ━━━━ [ 𝗕𝗮𝗻 𝘂𝘀𝗲𝗿  ] ━━━━ ⚜️\n💓 𝗛𝗶𝗲̣̂𝗻 𝘁𝗮̣𝗶 𝗯𝗮̣𝗻 𝗯𝗶̣ 𝗰𝗮̂́𝗺 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 𝗯𝗼𝘁 🚫\n💌 𝗟𝗶́ 𝗱𝗼: %1\n⏰ 𝗧𝗵𝗼̛̀𝗶 𝗴𝗶𝗮𝗻: \n%2
 \n𝗟𝗶𝗲̂𝗻 𝗵𝗲̣̂ 𝗮𝗱𝗺𝗶𝗻 đ𝗲̂̉ đ𝘂̛𝗼̛̣𝗰 𝗴𝗼̛̃ 𝗯𝗮𝗻 💞 
 handleCommand.threadBanned=⚜️ ━━━━ [ 𝗕𝗮𝗻𝗻𝗲𝗱 𝗴𝗿𝗼𝘂𝗽 ] ━━━━ ⚜️\n💓 𝗛𝗶𝗲̣̂𝗻 𝘁𝗮̣𝗶 𝗻𝗵𝗼́𝗺 𝗯𝗮̣𝗻 𝗯𝗶̣ 𝗰𝗮̂́𝗺 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 𝗯𝗼𝘁 \n💌 𝗟𝗶́ 𝗱𝗼: %1\n⏰ 𝗧𝗵𝗼̛̀𝗶 𝗴𝗶𝗮𝗻: \n%2\n→ 𝗗𝘂̀𝗻𝗴 𝗰𝗮𝗹𝗹𝗮𝗱 𝗻𝗲̂́𝘂 𝗺𝘂𝗼̂́𝗻 đ𝘂̛𝗼̛̣𝗰 𝗔𝗗𝗠𝗜𝗡 𝗴𝗼̛̃ 𝗯𝗮𝗻 💞
-handleCommand.commandNotExist======『 𝗦𝗔𝗜 𝗟𝗘̣̂𝗡𝗛 』=====\n━━━━━━━━━━━━━━━━\n→𝗟𝗲̣̂𝗻𝗵 𝗖𝘂̉𝗮 𝗕𝗮̣𝗻 𝗦𝘂̛̉ 𝗗𝘂̣𝗻𝗴 𝗞𝗵𝗼̂𝗻𝗴 𝗧𝗼̂̀𝗻 𝗧𝗮̣𝗶 𝗧𝗿𝗲̂𝗻 𝗛𝗲̣̂ 𝗧𝗵𝗼̂́𝗻𝗴 🐧\n→𝗖𝗼́ 𝗣𝗵𝗮̉𝗶 𝗟𝗲̣̂𝗻𝗵 ( %1 ) 𝗕𝗮̣𝗻 Đ𝗮𝗻𝗴 𝗖𝗮̂̀𝗻 𝗛𝗮𝘆 𝗞𝗵𝗼̂𝗻𝗴 💘\n━━━━━━━━━━━━━━━━━\n💓
+handleCommand.commandNotExist======『 SAI LỆNH 』=====\n━━━━━━━━━━━━━━━━\n→Lệnh bạn sử dụng không tồn tại trong hệ thống 🐧\n→Có phải lệnh bạn đang cần là ( %1 ) không?\n━━━━━━━━━━━━━━━━━\n💓
 handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"
 handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
