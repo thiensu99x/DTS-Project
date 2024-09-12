@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { tai } = require("../controllers/tai");
+const { tai } = require("../controllers/dts");
 const { cosplay } = require("../controllers/cosplay");
 const { girl } = require("../controllers/girl");
 const { getappstate } = require("../controllers/getappstate");
