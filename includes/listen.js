@@ -17,7 +17,7 @@ module.exports = function({ api, models }) {
   var day = moment.tz("Asia/Ho_Chi_Minh").day();
   
   
-  const checkttDataPath = __dirname + '/../modules/commands/-checktt/';
+  const checkttDataPath = __dirname + '/../modules/commands/checktt/';
   setInterval(async() => {
     const day_now = moment.tz("Asia/Ho_Chi_Minh").day();
     if (day != day_now) {
