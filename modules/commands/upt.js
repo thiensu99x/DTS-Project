@@ -32,7 +32,7 @@ seconds = Math.floor(time % 60);
 const dateNow = Date.now();
 const xuly = Math.floor((Date.now() - global.client.timeStart)/4444)
 var trinhtrang = xuly < 10 ? "Tốt ✔️":
-xuly > 10 && xuly < 100 ? "Ổn định 📊" : "Lag ";
+xuly > 10 && xuly < 100 ? "Ổn định 📊" : "Delay 🐢 ";
 var tpk = ["https://i.imgur.com/YT4fiIv.mp4",
 "https://i.imgur.com/ieNbUuN.mp4",
 "https://i.imgur.com/sW9I9WX.mp4",
