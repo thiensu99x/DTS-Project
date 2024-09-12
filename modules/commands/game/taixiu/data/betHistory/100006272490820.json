@@ -1,0 +1,72 @@
+[
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 100000,
+        "phien": 5531,
+        "time": 1724698009157
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 100000100000,
+        "phien": 5533,
+        "time": 1724698129037
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 1000,
+        "phien": 5640,
+        "time": 1724706319097
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 2000,
+        "phien": 5645,
+        "time": 1724706661152
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 1000,
+        "phien": 3,
+        "time": 1724707058743
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "xỉu",
+        "betAmount": 2000,
+        "phien": 7,
+        "time": 1724707319910
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 22000,
+        "phien": 14,
+        "time": 1724707851268
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 2000,
+        "phien": 1,
+        "time": 1724708428545
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 27000,
+        "phien": 43,
+        "time": 1724770580331
+    },
+    {
+        "senderID": "100006272490820",
+        "choice": "tài",
+        "betAmount": 1000,
+        "phien": 143,
+        "time": 1724857063591
+    }
+]
