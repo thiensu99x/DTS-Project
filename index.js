@@ -261,7 +261,7 @@ function onBot({ models }) {
         logger.loader('Đang tiến hành kết nối đến Admin chính');
         logger.loader('Kết nối thành công với Admin chính');
         logger.loader('Id Admin chính là: ' + global.config.ADMC[0])
-        global.config.version = '1.2.15'
+        global.config.version = '2.0.0'
         global.client.timeStart = new Date().getTime(),
             function () {
                 const listCommand = readdirSync(global.client.mainPath + '/modules/commands').filter(command => command.endsWith('.js') && !command.includes('example') && !global.config.commandDisabled.includes(command));

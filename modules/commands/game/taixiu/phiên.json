@@ -2133,5 +2133,40 @@
         "dice1": 6,
         "dice2": 1,
         "dice3": 6
+    },
+    {
+        "phien": 307,
+        "result": "tài",
+        "dice1": 4,
+        "dice2": 5,
+        "dice3": 3
+    },
+    {
+        "phien": 308,
+        "result": "tài",
+        "dice1": 5,
+        "dice2": 1,
+        "dice3": 6
+    },
+    {
+        "phien": 309,
+        "result": "xỉu",
+        "dice1": 6,
+        "dice2": 1,
+        "dice3": 3
+    },
+    {
+        "phien": 310,
+        "result": "tài",
+        "dice1": 4,
+        "dice2": 3,
+        "dice3": 4
+    },
+    {
+        "phien": 311,
+        "result": "tài",
+        "dice1": 6,
+        "dice2": 1,
+        "dice3": 4
     }
 ]

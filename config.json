@@ -16,15 +16,11 @@
     "UPTIME": 1231526.035836716,
     "DASHBOARD": false,
     "commandDisabled": [
-        "autocamxuc.js",
-        "hentai.js",
-        "hi.js",
-        "hi2.js",
-        "autothoitiet"
+        "autocamxuc.js"
     ],
     "eventDisabled": [],
     "BOTNAME": "𝐍𝐨𝐚𝐡",
-    "PREFIX": "!",
+    "PREFIX": "/",
     "URLINK": "localhost:8300",
     "ADMC": [
         "100006272490820"
@@ -57,7 +53,7 @@
         "selfListen": true,
         "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)"
     },
-    "version": "1.2.15",
+    "version": "2.0.0",
     "help": {
         "autoUnsend": true,
         "delayUnsend": 120
@@ -119,5 +115,17 @@
     "leave": {
         "status": false,
         "number": 0
+    },
+    "minecraft": {
+        "APIKEY": ""
+    },
+    "music": {
+        "YOUTUBE_API": "AIzaSyANZ2iLlzjDztWXgbCgL8Oeimn3i3qd0bE"
+    },
+    "subnau": {
+        "APIKEY": ""
+    },
+    "radio": {
+        "YOUTUBE_API": "AIzaSyA81xmaIo6uozgapDe7_yDjFfnOwkfx_XA"
     }
 }
