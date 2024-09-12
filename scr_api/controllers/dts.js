@@ -1,9 +1,9 @@
 const { errorHandler } = require("../utils");
 const axios = require('axios');
 
-exports.tai = async (req, res, next) => {
+exports.dts = async (req, res, next) => {
   try {
-    var data = require('fs-extra').readFileSync(__dirname + '/../tai.txt', 'utf-8').split('\n');
+    var data = require('fs-extra').readFileSync(__dirname + '/../dts.txt', 'utf-8').split('\n');
     link = data[Math.floor(Math.random() * data.length)].trim();
     link1 = data[Math.floor(Math.random() * data.length)].trim();
     link2 = data[Math.floor(Math.random() * data.length)].trim();
