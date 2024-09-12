@@ -30,11 +30,11 @@ module.exports.config = {
     const cre = this.config.credits
     const prefix = config.PREFIX
      if (args.length == 0) {
-      return api.sendMessage(`--- [⚜️] MIRAI [⚜️] ---\n\n[⚜️] ${prefix}${nmdl} pay + số => chuyển lượt dùng bot của mình cho người được reply\n\n[⚜️] ${prefix}${nmdl} buy => mua lượt dùng bot\n\n[⚜️]  ${prefix}${nmdl} c/check => xem số lượt bản thân, reply xem người đó\n\n[⚜️]  ${prefix}${nmdl} c/check + a/all => xem số lượt tất cả thành viên\n\n===[⚜️] ${cre} [⚜️]===`, threadID, messageID);
+      return api.sendMessage(`--- [⚜️] DTS [⚜️] ---\n\n[⚜️] ${prefix}${nmdl} pay + số => chuyển lượt dùng bot của mình cho người được reply\n\n[⚜️] ${prefix}${nmdl} buy => mua lượt dùng bot\n\n[⚜️]  ${prefix}${nmdl} c/check => xem số lượt bản thân, reply xem người đó\n\n[⚜️]  ${prefix}${nmdl} c/check + a/all => xem số lượt tất cả thành viên\n\n===[⚜️] ${cre} [⚜️]===`, threadID, messageID);
     }if("Nam"!=cre)return;
      if (args[0] == "set") {
       if (permssion != 3) {
-        return api.sendMessage("[DONATE]→ Momo/Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
+        return api.sendMessage("[DONATE]→ Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
                          }
       if (isNaN(args[1])) {
         return api.sendMessage("[⚜️]→ Phải là con số", threadID, messageID);
@@ -46,7 +46,7 @@ module.exports.config = {
     }
     if (args[0] == "add") {
       if (permssion != 3) {
-        return api.sendMessage("[DONATE]→ Momo/Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
+        return api.sendMessage("[DONATE]→ Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
       }
       if (isNaN(args[1])) {
         return api.sendMessage("[⚜️]→ Phải là con số", threadID, messageID);
@@ -61,7 +61,7 @@ module.exports.config = {
     }
     if (args[0] == "del") {
       if (permssion != 3) {
-        return api.sendMessage("[DONATE]→ Momo/Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
+        return api.sendMessage("[DONATE]→ Mbbank: 966667778888. Xin cám ơn ạ!! ❤️", threadID, messageID);
       }
       if (isNaN(args[1])) {
         return api.sendMessage("[⚜️]→ Phải là con số", threadID, messageID);
