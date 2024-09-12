@@ -2,7 +2,7 @@ module.exports.config = {
   name: 'autosend',
   version: '2.0.4',
   hasPermssion: 2,
-  credits: 'đtai',
+  credits: 'thiensu',
   description: 'Tự động gửi tin nhắn theo giờ đã cài!',
   commandCategory: 'Hệ thống',
   usages: '[]',
@@ -14,16 +14,16 @@ module.exports.onLoad = o => {
   if (!!global.autosendmessage_setinterval) clearInterval(global.autosendmessage_setinterval);
   global.autosendmessage_setinterval = setInterval(async function () {
     const m = require("moment-timezone").tz("Asia/Ho_Chi_Minh");
-    const dtaicute = m.format("HH:mm:ss");
+    const dinhthiensu = m.format("HH:mm:ss");
     const hour = m.format("HH");
-    if ((dtaicute === `${hour}:00:00` || dtaicute === `${hour}:30:00`) && (hour >= "00" && hour <= "24")) {
+    if ((dinhthiensu === `${hour}:00:00` || dinhthiensu === `${hour}:30:00`) && (hour >= "00" && hour <= "24")) {
       const time = process.uptime();
       const apiUrl = "http://127.0.0.1:8300/api/girl";
-      const dtaicutevc = ["1", "2", "3", "4"];
+      const thiensu = ["1", "2", "3", "4"];
       const array = [];
 
-      const randomIndex = Math.floor(Math.random() * dtaicutevc.length);
-      const dinhthiensu = parseInt(dtaicutevc[randomIndex]);
+      const randomIndex = Math.floor(Math.random() * thiensu.length);
+      const dinhthiensu = parseInt(thiensu[randomIndex]);
 
       for (let i = 0; i < dinhthiensu; i++) {
         const res = await axios.get(apiUrl);
