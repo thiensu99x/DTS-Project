@@ -172,7 +172,7 @@ module.exports = function({ api, models }) {
 	/////////////////////////////////////////////////
 	
 	return (event) => {
-    /*let form_mm_dd_yyyy = (input = '', split = input.split('/'))=>`${split[1]}/${split[0]}/${split[2]}`;
+    let form_mm_dd_yyyy = (input = '', split = input.split('/'))=>`${split[1]}/${split[0]}/${split[2]}`;
 	  let prefix = (global.data.threadData.get(event.threadID) || {}).PREFIX||global.config.PREFIX;
 	  let send = (msg, callback)=>api.sendMessage(msg, event.threadID, callback, event.messageID);
 	  if ((event.body||'').startsWith(prefix) && event.senderID != api.getCurrentUserID() && !global.config.ADMINBOT.includes(event.senderID)) {
@@ -191,7 +191,8 @@ module.exports = function({ api, models }) {
 ☎️: Liên hệ Admin: Đinh Thiên Sứ
 📞: Zalo: zalo.me/thiensu99x
 🪪: Facebook: https://www.facebook.com/thiensu99x`);
-	  };*/
+	  };
+
     let data = JSON.parse(fs.readFileSync(__dirname + "/../modules/commands/bot/approvedThreads.json"));
     let adminBot = global.config.ADMINBOT
     if (!data.includes(event.threadID) && !adminBot.includes(event.senderID)) {
