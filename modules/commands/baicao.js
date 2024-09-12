@@ -240,12 +240,12 @@ for (let i = 0 ; i < values.length; i++) {
   }
 }
 
-module.exports.onLoad = async () => {
-	console.log("====== BAICAO LOADED SUCCESSFULLY ======");
-  console.log("[ INFO ] » J-JRT");
-  console.log("[ DONATE ] » Bạn có thể donate cho tôi để giúp tôi có thêm động lực code");
-  console.log("============ NNNNNN ============")
-};
+// module.exports.onLoad = async () => {
+// 	console.log("====== BAICAO LOADED SUCCESSFULLY ======");
+//   console.log("[ INFO ] » J-JRT");
+//   console.log("[ DONATE ] » Bạn có thể donate cho tôi để giúp tôi có thêm động lực code");
+//   console.log("============ NNNNNN ============")
+// };
 
 function createDeck() {
   const deckShuffel = [...deck];
