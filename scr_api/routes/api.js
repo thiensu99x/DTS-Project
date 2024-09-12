@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { tai } = require("../controllers/dts");
+const { dts } = require("../controllers/dts");
 const { cosplay } = require("../controllers/cosplay");
 const { girl } = require("../controllers/girl");
 const { getappstate } = require("../controllers/getappstate");
@@ -18,7 +18,7 @@ const { anhanime } = require("../controllers/anhanime");
 const { ipcheck } = require("../controllers/ipcheck");
 const { vdanime } = require("../controllers/vdanime");
 
-router.get("/tai", tai);
+router.get("/dts", dts);
 router.get("/cosplay", cosplay);
 router.get("/girl", girl);
 router.get ("/getappstate", getappstate);
