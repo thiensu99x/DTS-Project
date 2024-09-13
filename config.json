@@ -19,19 +19,17 @@
         "autocamxuc.js"
     ],
     "eventDisabled": [],
-    "BOTNAME": "𝐍𝐨𝐚𝐡",
+    "BOTNAME": "𝐃𝐓𝐒 - 𝐏𝐫𝐨𝐣𝐞𝐜𝐭",
     "PREFIX": "/",
     "URLINK": "localhost:8300",
     "ADMC": [
         "100006272490820"
     ],
     "ADMINBOT": [
-        "100006272490820",
-        ""
+        "100006272490820"
     ],
     "NDH": [
-        "100006272490820",
-        ""
+        "100006272490820"
     ],
     "DATABASE": {
         "sqlite": {
